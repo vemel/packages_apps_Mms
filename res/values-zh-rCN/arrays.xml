@@ -59,9 +59,23 @@
     <item msgid="850324578089267455">"保密"</item>
     <item msgid="6334637439528489607">"大笑"</item>
     <item msgid="7602915122893958066">"困惑"</item>
-    <item msgid="3939233701582771068">"Heart"</item>
-    <item msgid="1414759480575851587">"Mad"</item>
-    <item msgid="8479809115158836070">"Smirk"</item>
+    <item msgid="3939233701582771068">"会心"</item>
+    <item msgid="1414759480575851587">"发疯"</item>
+    <item msgid="8479809115158836070">"傻笑"</item>
     <item msgid="638612939305162424">"一本正经"</item>
+  </string-array>
+  <string-array name="pref_templates_gestures_sensitivity_entries">
+    <item>1（最宽松）</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12（最严谨）</item>
   </string-array>
 </resources>
