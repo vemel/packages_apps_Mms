@@ -383,6 +383,8 @@ public class ComposeMessageActivity extends Activity
                     s = s.replace("œ", "oe");
                     s = s.replace("Ł", "L");
                     s = s.replace("ł", "l");
+                    s = s.replace("Đ", "DJ");
+                    s = s.replace("đ", "dj");
 
                     output.append(s);
                 }
