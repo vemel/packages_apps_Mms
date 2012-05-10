@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- 
  * Copyright (C) 2008 Esmertec AG.
  * Copyright (C) 2008 The Android Open Source Project
@@ -15,9 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
   -->
-
-<resources xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string-array name="default_smiley_texts">
     <item msgid="6418813270603201918">":-)"</item>
     <item msgid="5037069969500587717">":-("</item>
@@ -63,5 +61,27 @@
     <item msgid="1414759480575851587">"Louco"</item>
     <item msgid="8479809115158836070">"Sorriso forçado"</item>
     <item msgid="638612939305162424">"Indiferente"</item>
+  </string-array>
+  <string-array name="pref_templates_gestures_sensitivity_entries">
+    <item>1 (mais amplo)</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+    <item>9</item>
+    <item>10</item>
+    <item>11</item>
+    <item>12 (estrita)</item>
+  </string-array>
+  <string-array name="pref_mms_notification_vibrate_pattern_entries">
+    <item>Normal</item>
+    <item>Vibração Média</item>
+    <item>Vibração Longa</item>
+    <item>Curto Múltiplo</item>
+    <item>Longo Múltiplo</item>
+    <item>@string/pref_title_mms_notification_vibrate_custom</item>
   </string-array>
 </resources>
