@@ -372,4 +372,8 @@
     <string name="pref_summary_mms_notification_vibrate_call">Permitir vibração enquanto chamada está ativa</string>
     <string name="pref_title_mms_notification_vibrate_custom">Personalizar padrão de vibração</string>
     <string name="pref_text_mms_notification_vibrate_custom">Formato desligado/ligado em milissegundos: desligado, ligado, desligado, ...</string>
+    <string name="pref_title_sms_EnableMultipartSMS">SMS para MMS</string>
+    <string name="pref_summary_sms_EnableMultipartSMS">Transformar mensagens de texto longo em MMS</string>
+    <string name="pref_title_sms_SmsToMmsTextThreshold">Soma SMS</string>
+    <string name="pref_summary_sms_SmsToMmsTextThreshold">"<xliff:g id="COUNT" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">%1$s</xliff:g> mensagens antes da conversão em MMS"</string>
 </resources>
