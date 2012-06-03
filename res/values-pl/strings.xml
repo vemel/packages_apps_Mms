@@ -369,7 +369,7 @@
     <string name="pref_summary_strip_unicode">Zastępuj znaki (ogonki itp.), które nie są wspierane w 160-znakowych wiadomościach SMS</string>
     <!-- Enable emojis -->
     <string name="pref_title_enable_emojis">Włącz emoji</string>
-    <string name="pref_summary_enable_emojis">Włącz wsparcie dla zestawu 471 unikodowych emotikon emoji softbanku.</string>
+    <string name="pref_summary_enable_emojis">Włącz wsparcie dla zestawu 471 unikodowych emotikon emoji softbanku</string>
     <!-- Full timestamps -->
     <string name="pref_title_mms_full_timestamp">Pełna data</string>
     <string name="pref_summary_mms_full_timestamp">Wyświetla pełną datę oraz czas w wiadomościach</string>
@@ -385,4 +385,9 @@
     <string name="pref_summary_mms_notification_vibrate_call">Wibruje w trakcie aktywnego połączenia głosowego</string>
     <string name="pref_title_mms_notification_vibrate_custom">Niestandardowy wzór wibracji</string>
     <string name="pref_text_mms_notification_vibrate_custom">Format wyłącz/włącz w milisekundach: wyłącz, włącz, wyłącz, włącz, ...</string>
+
+    <string name="pref_title_sms_EnableMultipartSMS">"SMS do MMS"</string>
+    <string name="pref_summary_sms_EnableMultipartSMS">"Zmień długie wiadomości tekstowe w wiadomość MMS"</string>
+    <string name="pref_title_sms_SmsToMmsTextThreshold">"Ilość SMS"</string>
+    <string name="pref_summary_sms_SmsToMmsTextThreshold">"<xliff:g id="COUNT">%1$s</xliff:g> wiadomości przed konwersją na MMS"</string>
 </resources>
