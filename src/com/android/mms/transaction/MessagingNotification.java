@@ -512,16 +512,21 @@ public class MessagingNotification {
                 sDefaultContactImage);
         Bitmap originalAvatarBit = ((BitmapDrawable)avatarDraw).getBitmap();
         // The Contact's avatar is unlikely to be the correct size, so scale it
-        // to the notification icon View. This does not deal with differint
-        // aspect ratios between the two, but it shouldn't need to.
+        // to the notification icon View. This deals with different aspect ratios.
         Resources resources = context.getResources();
-        int iconWidth = resources.getDimensionPixelSize(
-                android.R.dimen.notification_large_icon_width);
-        int iconHeight = resources.getDimensionPixelSize(
-                android.R.dimen.notification_large_icon_height);
-        Bitmap avatarBit = Bitmap.createScaledBitmap(originalAvatarBit, iconWidth, iconHeight,
-                                                     false);
-        notificationbuilder.setLargeIcon(avatarBit);
+        int imageWidth = originalAvatarBit.getWidth();
+        int imageHeight = originalAvatarBit.getHeight();
+        int iconWidth = resources.getDimensionPixelSize(android.R.dimen.notification_large_icon_width);
+        int iconHeight = resources.getDimensionPixelSize(android.R.dimen.notification_large_icon_height);
+        if (imageWidth > imageHeight) {
+            iconWidth = (int) (((float) iconHeight / imageHeight) * imageWidth);
+        } else {
+            iconHeight = (int) (((float) iconWidth / imageWidth) * imageHeight);
+        }
+
+        Bitmap scaledAvatar = Bitmap.createScaledBitmap(originalAvatarBit, iconWidth, iconHeight, false);
+
+        notificationbuilder.setLargeIcon(scaledAvatar);
 
         // If we have more than one unique thread, change the title (which would
         // normally be the contact who sent the message) to a generic one that
