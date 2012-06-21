@@ -89,4 +89,10 @@
     <item>@string/pref_title_mms_notification_vibrate_custom</item>
   </string-array>
 
+  <string-array name="pref_entries_input_type">
+    <item>Hangulatjel beszúrása</item>
+    <item>Üzenet elküldése</item>
+    <item>Új sor beszúrása</item>
+  </string-array>
+
 </resources>
