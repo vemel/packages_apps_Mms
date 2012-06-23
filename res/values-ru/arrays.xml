@@ -80,4 +80,9 @@
        <item>0,800,200,800,200,800</item>
        <item>пользовательская</item>
     </string-array>
+    <string-array name="pref_entries_input_type">
+       <item>Emoji</item>
+       <item>Отправить</item>
+       <item>Вставка новой строки</item>
+    </string-array>
 </resources>
