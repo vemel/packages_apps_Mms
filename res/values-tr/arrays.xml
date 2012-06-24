@@ -64,4 +64,18 @@
     <item msgid="8479809115158836070">"Sırıtma"</item>
     <item msgid="638612939305162424">"Poker surat"</item>
   </string-array>
+  <string-array name="pref_mms_notification_vibrate_pattern_entries">
+    <item>Normal</item>
+    <item>Orta Titreşim</item>
+    <item>Uzun Titreşim</item>
+    <item>Çoklu Kısa</item>
+    <item>Çoklu Uzun</item>
+    <item>@string/pref_title_mms_notification_vibrate_custom</item>
+  </string-array>
+  <string-array name="pref_entries_input_type">
+    <item>Emoji</item>
+    <item>Gönder</item>
+    <item>Enter ile yeni satıra geç</item>
+  </string-array>
+
 </resources>
