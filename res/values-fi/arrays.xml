@@ -70,6 +70,7 @@
     <item>Pitkä</item>
     <item>Useampi lyhyt</item>
     <item>Useampi pitkä</item>
+    <item>@string/pref_title_mms_notification_vibrate_custom</item>
   </string-array>
   <string-array name="pref_entries_input_type">
     <item>Emoji</item>
