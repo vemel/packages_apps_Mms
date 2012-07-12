@@ -40,6 +40,26 @@
         <item msgid="8479809115158836070">"Grijns"</item>
         <item msgid="638612939305162424">"Pokergezicht"</item>
     </string-array>
+    <string-array name="select_dialog_items">
+        <item msgid="4840183714016984112">"1 seconde"</item>
+        <item msgid="3734955613666864447">"2 seconden"</item>
+        <item msgid="6032232473048379828">"3 seconden"</item>
+        <item msgid="5978471781525927827">"4 seconden"</item>
+        <item msgid="4888440297621208402">"5 seconden"</item>
+        <item msgid="6047246213264166841">"6 seconden"</item>
+        <item msgid="2327501250056533797">"7 seconden"</item>
+        <item msgid="3400770414689795703">"8 seconden"</item>
+        <item msgid="4358760614161107970">"9 seconden"</item>
+        <item msgid="2618179407176906471">"10 seconden"</item>
+        <item msgid="7786079681602275449">"Overig"</item>
+    </string-array>
+    <string-array name="prefEntries_vibrateWhen">
+        <item msgid="2520871831815631409">"Altijd"</item>
+        <item msgid="6069709696037750627">"Alleen in stille modus"</item>
+        <item msgid="7486145357487111435">"Nooit"</item>
+    </string-array>
+
+    <!-- CYANOGENMOD EDITS -->
     <string-array name="pref_templates_gestures_sensitivity_entries">
         <item>1 (minst strikt)</item>
         <item>2</item>

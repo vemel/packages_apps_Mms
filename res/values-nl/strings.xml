@@ -123,19 +123,6 @@
     <string name="duration_not_a_number" msgid="2856636898040421237">"Duur moet een getal zijn."</string>
     <string name="duration_zero" msgid="3549377790195185977">"Duur moet langer zijn dan nul seconden."</string>
     <string name="secs" msgid="6886003523109967972">"seconden"</string>
-  <string-array name="select_dialog_items">
-    <item msgid="4840183714016984112">"1 seconde"</item>
-    <item msgid="3734955613666864447">"2 seconden"</item>
-    <item msgid="6032232473048379828">"3 seconden"</item>
-    <item msgid="5978471781525927827">"4 seconden"</item>
-    <item msgid="4888440297621208402">"5 seconden"</item>
-    <item msgid="6047246213264166841">"6 seconden"</item>
-    <item msgid="2327501250056533797">"7 seconden"</item>
-    <item msgid="3400770414689795703">"8 seconden"</item>
-    <item msgid="4358760614161107970">"9 seconden"</item>
-    <item msgid="2618179407176906471">"10 seconden"</item>
-    <item msgid="7786079681602275449">"Overig"</item>
-  </string-array>
     <string name="menu_view_contact" msgid="1414670584423909451">"Contact tonen"</string>
     <string name="menu_add_to_contacts" msgid="1258127580972228970">"Toevoegen aan Personen"</string>
     <string name="hidden_sender_address" msgid="2776075636669924968">"Verborgen adres verzender"</string>
@@ -170,11 +157,6 @@
     <string name="pref_summary_notification_vibrateWhen" msgid="669655090822561447">"Ook trillen bij melding"</string>
     <string name="pref_title_notification_ringtone" msgid="5467265237106229952">"Beltoon kiezen"</string>
     <string name="pref_messages_to_save" msgid="3202539743892934926">"Aantal berichten instellen voor opslaan"</string>
-  <string-array name="prefEntries_vibrateWhen">
-    <item msgid="2520871831815631409">"Altijd"</item>
-    <item msgid="6069709696037750627">"Alleen in stille modus"</item>
-    <item msgid="7486145357487111435">"Nooit"</item>
-  </string-array>
     <string name="prefDialogTitle_vibrateWhen" msgid="6419655771690242118">"Trillen"</string>
     <string name="pref_title_mms_auto_retrieval" msgid="4021878285474431355">"Automatisch ophalen"</string>
     <string name="pref_summary_mms_auto_retrieval" msgid="925163257363757048">"Berichten automatisch ophalen"</string>
@@ -182,10 +164,6 @@
     <string name="pref_summary_mms_retrieval_during_roaming" msgid="2427892806582531020">"Berichten automatisch ophalen tijdens roaming"</string>
     <string name="confirm_dialog_title" msgid="2187213750475782725">"Verwijderen?"</string>
     <string name="confirm_dialog_locked_title" msgid="8179085718150932242">"Vergrendeld bericht verwijderen?"</string>
-  <plurals name="confirm_delete_conversation">
-    <item quantity="one" msgid="7509396981963472833">"Eén conversatie wordt verwijderd."</item>
-    <item quantity="other" msgid="4076915774012081811">"<xliff:g id="NUMBER">%1$s</xliff:g> conversaties worden verwijderd."</item>
-  </plurals>
     <string name="confirm_delete_conversation" msgid="6115966687389279855">"De volledige conversatie wordt verwijderd."</string>
     <string name="confirm_delete_all_conversations" msgid="9036166685235092757">"Alle conversaties worden verwijderd."</string>
     <string name="confirm_delete_message" msgid="9121480656609809591">"Het bericht wordt verwijderd."</string>
@@ -282,11 +260,6 @@
     <string name="menu_insert_smiley" msgid="4964504393061025071">"Smiley invoegen"</string>
     <string name="select_link_title" msgid="3371818607625768447">"Actie selecteren"</string>
     <string name="slide_number" msgid="1923958526266726635">"Dia <xliff:g id="NUMBER">%s</xliff:g>"</string>
-  <plurals name="slide_duration">
-    <item quantity="one" msgid="1654101988340583935">"<xliff:g id="NUMBER">%s</xliff:g> seconde"</item>
-    <item quantity="few" msgid="7887190171856293871">"<xliff:g id="NUMBER">%s</xliff:g> seconden"</item>
-    <item quantity="other" msgid="3736425355579939863">"<xliff:g id="NUMBER">%s</xliff:g> seconden"</item>
-  </plurals>
     <string name="delivery_report_activity" msgid="2957463094232916364">"Leveringsrapport"</string>
     <string name="storage_limits_activity" msgid="8810530813311077716">"Opslaglimieten"</string>
     <string name="change_duration_activity" msgid="7048606979485031693">"Duur wijzigen"</string>
@@ -299,10 +272,6 @@
     <string name="search" msgid="7560238620274735199">"Berichten"</string>
     <string name="search_setting_description" msgid="4104004595086437572">"Tekst in uw berichten"</string>
     <string name="search_empty" msgid="2109551478056039278">"Geen resultaten."</string>
-  <plurals name="search_results_title">
-    <item quantity="one" msgid="4657073733087431350">"<xliff:g id="NUMBER">%1$s</xliff:g> resultaat voor \'<xliff:g id="SEARCH">%2$s</xliff:g>\'"</item>
-    <item quantity="other" msgid="6196382287749539209">"<xliff:g id="NUMBER">%1$s</xliff:g> resultaten voor \'<xliff:g id="SEARCH">%2$s</xliff:g>\'"</item>
-  </plurals>
     <string name="search_history" msgid="4127805495662693154">"<xliff:g id="COUNT">%1$s</xliff:g> resultaten voor \'<xliff:g id="SEARCH">%2$s</xliff:g>\'"</string>
     <string name="confirm_clear_search_title" msgid="8510295993632032904">"Wissen"</string>
     <string name="confirm_clear_search_text" msgid="8731877031837077478">"De zoekgeschiedenis wordt gewist."</string>
@@ -321,9 +290,6 @@
     <string name="message_count_format" msgid="4434763220590778012">" <xliff:g id="NUMBER">%1$s</xliff:g>"</string>
     <string name="error_state" msgid="5177386717626893507">"Inconsistente status"</string>
     <string name="error_state_text" msgid="7918866106335387710">"De status van conversaties en ontvangers is inconsistent. Registreer dit als bug via http://go/droidanizer"</string>
-  <plurals name="recipient_count">
-    <item quantity="other" msgid="7338580381574463136">"<xliff:g id="NUMBER">%1$s</xliff:g> personen"</item>
-  </plurals>
     <string name="disable_notifications_dialog_message" msgid="7644011234972074096">"Dubbele sms-meldingen van standaardapp voor berichten stoppen?"</string>
 
     <!-- CYANOGENMOD EDITS -->
