@@ -367,15 +367,22 @@
     <!-- Strip unicode -->
     <string name="pref_title_strip_unicode">Opuszczaj Unikod</string>
     <string name="pref_summary_strip_unicode">Zastępuj znaki (ogonki itp.), które nie są wspierane w 160-znakowych wiadomościach SMS</string>
+
     <!-- Enable emojis -->
     <string name="pref_title_enable_emojis">Włącz emoji</string>
     <string name="pref_summary_enable_emojis">Włącz wsparcie dla zestawu 471 unikodowych emotikon emoji softbanku</string>
+
     <!-- Full timestamps -->
     <string name="pref_title_mms_full_timestamp">Pełna data</string>
     <string name="pref_summary_mms_full_timestamp">Wyświetla pełną datę oraz czas w wiadomościach</string>
+
     <!-- Which timestamps -->
     <string name="pref_title_mms_use_sent_timestamp">Oryginalna data</string>
     <string name="pref_summary_mms_use_sent_timestamp">Wyświetla datę wysłania zamiast daty odebrania wiadomości</string>
+
+    <!-- Settings item for the soft keyboard picker -->
+    <string name="pref_title_input_type">Typ klawiatury</string>
+    <string name="pref_summary_input_type">Wybierz z którego typu klawiatury korzystać przy tworzeniu wiadomości</string>
 
     <!-- Change Vibrate pattern/method for message notification -->
     <string name="pref_title_mms_notification_vibrate_settings">Ustawienia wibracji</string>
