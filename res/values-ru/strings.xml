@@ -349,7 +349,7 @@
     <string name="template_list_title">Шаблоны</string>
     <string name="template_new_title">Новый шаблон</string>
     <string name="template_insert">Ввести шаблон</string>
-    <string name="template_gesture_draw">Нарисуйте жест в областе ниже</string>
+    <string name="template_gesture_draw">Нарисуйте жест в области ниже</string>
     <string name="template_not_present_error">Вы не определили шаблон</string>
     <string name="template_not_present_error_title">Ошибка</string>
     <string name="template_select">Выберите шаблон</string>
@@ -380,7 +380,7 @@
     <string name="pref_title_mms_notification_vibrate_call">Вибрация при разговоре</string>
     <string name="pref_summary_mms_notification_vibrate_call">Разрешить вибрацию при разговоре</string>
     <string name="pref_title_mms_notification_vibrate_custom">Пользоват. режим вибрации</string>
-    <string name="pref_text_mms_notification_vibrate_custom">Формат выкл/вкл в миллисекундах: выкл, вкл, выкл, вкл, \u2026</string>
+    <string name="pref_text_mms_notification_vibrate_custom">Формат выкл/вкл в миллисекундах: выкл, вкл, выкл, вкл</string>
 
     <string name="pref_title_sms_EnableMultipartSMS">SMS в MMS</string>
     <string name="pref_summary_sms_EnableMultipartSMS">Преобразовывать длинные текстовые сообщения в MMS</string>
