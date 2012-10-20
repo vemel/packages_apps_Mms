@@ -384,4 +384,7 @@
     <string name="pref_title_sms_SmsToMmsTextThreshold">"SMS sayısı"</string>
     <string name="pref_summary_sms_SmsToMmsTextThreshold">"<xliff:g id="COUNT">%1$s</xliff:g> mesajtan sonra MMS\'e çevirilir"</string>
 
+    <string name="pref_title_input_type">Klavye ayarı</string>
+    <string name="pref_summary_input_type">Mesaj yazarken kullanılacak klavye ayarı</string>
+
 </resources>
